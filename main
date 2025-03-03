@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syed Zeeshan Haider - Portfolio</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+
+    a {
+      text-decoration: none;
+      color: #3498db;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Header Section */
+    header {
+      background: #3498db;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    /* About Section */
+    #about {
+      background: #fff;
+    }
+
+    #about p {
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    /* Skills Section */
+    #skills ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    #skills li {
+      background: #ecf0f1;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      color: #2c3e50;
+    }
+
+    /* Projects Section */
+    #projects .project {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    #projects img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    /* Contact Section */
+    #contact form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    #contact input, #contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    #contact button {
+      background: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #contact button:hover {
+      background: #2980b9;
+    }
+
+    /* Footer */
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="https://via.placeholder.com/150" alt="Syed Zeeshan Haider">
+    <h1>Syed Zeeshan Haider</h1>
+    <p>BS Computer Science Student | FAST CFD Campus | Enthusiast in Computing Technology</p>
+    <a href="#about">Learn More</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello! I'm Syed Zeeshan Haider, a passionate computer science student currently pursuing my BS degree at FAST CFD Campus. My journey into computing technology began with a curiosity for problem-solving and innovation. Over time, I've developed a strong interest in software development, data structures, algorithms, and emerging technologies like AI and cloud computing.</p>
+      <p>I enjoy working on projects that challenge me to think critically and creatively. Outside of academics, I love contributing to open-source projects and exploring new tools and frameworks to enhance my skills.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>Python</li>
+        <li>Data Structures & Algorithms</li>
+        <li>Git & GitHub</li>
+        <li>Problem Solving</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="https://via.placeholder.com/600x400" alt="Project 1">
+        <h3>Personal Portfolio Website</h3>
+        <p>A fully responsive portfolio website built using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+        <a href="https://github.com/your-repo-link">GitHub</a> | 
+        <a href="https://your-live-demo-link.com">Live Demo</a>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/600x400" alt="Project 2">
+        <h3>To-Do App</h3>
+        <p>A simple yet effective To-Do application built with React.js, allowing users to manage their tasks efficiently.</p>
+        <a href="https://github.com/your-repo-link">GitHub</a> | 
+        <a href="https://your-live-demo-link.com">Live Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="mailto:syedzeeshan@example.com" method="post">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Syed Zeeshan Haider. All rights reserved.</p>
+    <p>
+      <a href="https://github.com/your-github-profile">GitHub</a> | 
+      <a href="https://linkedin.com/in/your-linkedin-profile">LinkedIn</a>
+    </p>
+  </footer>
+</body>
+</html>
